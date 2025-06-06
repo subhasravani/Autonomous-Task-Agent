@@ -1,0 +1,19 @@
+{
+  "canisters": {
+    "autonomous_task_agent": {
+      "type": "motoko",
+      "main": "src/autonomous_task_agent/main.mo",
+      "candid": "src/autonomous_task_agent/autonomous_task_agent.did"
+    }
+  },
+  "dfx": "0.27.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000"
+    },
+    "ic": {
+      "providers": ["https://ic0.app"]
+    }
+  },
+  "version": 1
+}
